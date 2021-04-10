@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { faLinkedin,faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 declare var $:any;
 
 @Component({
@@ -7,6 +8,10 @@ declare var $:any;
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit {
+    faLinkedin=faLinkedin;
+    faLinkedinIn=faLinkedinIn;
+
+    year = new Date().getFullYear();
 
   constructor() { }
 
