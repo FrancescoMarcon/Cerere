@@ -9,9 +9,9 @@ import { UserMapComponent } from './user-map/user-map.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'home', component: HomepageComponent },
-  { path: 'homepage', component:HomeComponent },
-  { path: 'chart', component:ChartBarComponent },
+  // { path: 'home', component: HomepageComponent },
+  { path: 'home', component:HomeComponent },
+  // { path: 'chart', component:ChartBarComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'user-map', component: UserMapComponent}
 

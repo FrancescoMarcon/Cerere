@@ -11,7 +11,10 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserMapComponent } from './user-map/user-map.component';
-
+import { Chart } from 'chart.js';
+import { CardComponent } from 'src/modules/app-common/components/card/card.component';
+import { ChartAreaComponent } from './chart-area/chart-area.component';
+import { CardViewDetailsComponent } from 'src/modules/app-common/components/card-view-details/card-view-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,12 +24,16 @@ import { UserMapComponent } from './user-map/user-map.component';
     TopBarComponent,
     DashboardComponent,
     FooterComponent,
-    UserMapComponent
+    UserMapComponent,
+    CardComponent,
+    ChartAreaComponent,
+    CardViewDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    // Chart
   ],
   providers: [],
   bootstrap: [AppComponent]
