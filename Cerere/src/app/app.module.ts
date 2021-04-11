@@ -7,13 +7,21 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HomeComponent } from './home/home.component';
 import { ChartBarComponent } from './chart-bar/chart-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { FooterComponent } from './footer/footer.component';
+import { UserMapComponent } from './user-map/user-map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     HomeComponent,
-    ChartBarComponent
+    ChartBarComponent,
+    TopBarComponent,
+    DashboardComponent,
+    FooterComponent,
+    UserMapComponent
   ],
   imports: [
     BrowserModule,
